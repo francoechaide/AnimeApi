@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Animes</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" href="img/movies.png" />
+	</head>
+	<body>
+		<main>
+			<div class="area-Buscador">
+				<input type="text" id="search" placeholder="Buscar anime" />
+				<button id="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+			</div>
+
+			<div class="Area-contenido" id="Area-contenido"></div>
+			<div id="spinner-wrapper">
+				<div class="lds-ring">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</main>
+	</body>
+	<script src="datos.js"></script>
+	<script src="peticion.js"></script>
+	<script src="https://kit.fontawesome.com/c0c4858955.js" crossorigin="anonymous"></script>
+</html>
